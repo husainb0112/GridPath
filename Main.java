@@ -24,9 +24,11 @@ public class Main {
             {7, 2, 9, 4, 0}, 
             {8, 33, 18, 6, 1}
         };
+
         GridPath two = new GridPath(secondGrid);
         System.out.println(two); 
 
+        System.out.println(two.sumPath(0,0));
 
     }
 }
