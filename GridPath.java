@@ -27,7 +27,9 @@ public class GridPath {
         if (col < grid[0].length - 1) {
             right = grid[row][col + 1];
         } 
-        if (below < right) return new Location(row + 1, col);
+        if (below < right) {
+            return new Location(row + 1, col);
+        }
         return new Location(row, col + 1);
     }
 
